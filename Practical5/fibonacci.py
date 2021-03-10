@@ -1,3 +1,14 @@
+#for loops in range(3,14):
+#Add
+#adding()
+#Sequence
+#sequencing()
+#How many loops completed?
+#If less than 13: keep adding and sequencing
+#If 13: DONE!
+#if(loops == 13):
+#done()
+
 X = 1
 print("第1项是"， X）
 Y = 1
