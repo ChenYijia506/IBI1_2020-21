@@ -16,3 +16,21 @@ Z = (X and not Y)or(X and not Y)
 W = X!=Y
 print(Z == W)
 
+X = False
+Y = True
+Z = (X and not Y)or(X and not Y)
+W = X!=Y
+print(Z == W)
+
+X = True
+Y = True
+Z = (X and not Y)or(X and not Y)
+W = X!=Y
+print(Z == W)
+
+X = False
+Y = False
+Z = (X and not Y)or(X and not Y)
+W = X!=Y
+print(Z == W)
+
