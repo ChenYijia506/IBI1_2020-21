@@ -13,6 +13,6 @@ r = 1.2
 n = 84
 #Create a loop to calculate how the number of people infected increases.
 for i in range(1,6):
-n = n*r
+n = n + n*r
 #Print how many peple get infected after 5 rounds. Since the number of people is discrete variale, we need to change n into an integer.
 print(int(n))
