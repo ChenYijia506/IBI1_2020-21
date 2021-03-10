@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer: 
+# Answer:This code chooses a number from 1 to 100 randomly. If the number chosen is bigger than 50, then keep running the loop. If the number is smaller or equals to 50, then print the number. 
 
 # Import libraries
 # randint allows drawing a random number, 
