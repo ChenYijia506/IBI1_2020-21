@@ -3,7 +3,12 @@ b = 190784
 c = 100321
 d = abs(a-c)
 e = abs(a-b)
-d >= e
+if d == e:
+print("d quals to e")
+elif d > e:
+print("d is bigger than e")
+else:
+print("d is smaller than e")
 
 X = True
 Y = False
