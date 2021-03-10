@@ -8,8 +8,11 @@
 #if(loops == 5):
 #done()
 
+#Define the variables we need to use to calculate.
 r = 1.2
 n = 84
+#Create a loop to calculate how the number of people infected increases.
 for i in range(1,6):
 n = n*r
-print(n)
+#Print how many peple get infected after 5 rounds. Since the number of people is discrete variale, we need to change n into an integer.
+print(int(n))
