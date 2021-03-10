@@ -12,7 +12,7 @@ print("d is smaller than e")
 
 X = True
 Y = False
-Z = print(X or Y)
-W = print(X!=Y)
-Z == W
+Z = (X and not Y)or(X and not Y)
+W = X!=Y
+print(Z == W)
 
