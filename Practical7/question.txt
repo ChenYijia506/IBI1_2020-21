@@ -1,0 +1,10 @@
+The question is "How have new cases and total cases developed over time in Spain"?
+
+The line number of the code to answer this question is line 49-60.
+
+In the plot which is produced based on the dataset, it is easy to conclude that both the number of new cases and total cases stayed at a low level from 2019.12.31 to 2020.03.10. However, the number of new cases and total cases increased at extremely high speed on March 10,2020.
+Since then, there has been an exponential growth in the number of total cases. After 2020.03.10, the number of new cases increased strikingly at first, and fluctuated around a relatively high level.
+
+The plot is similar with what I expected because the epidemic broke out suddenly last year. Since the breakout took place, the increment in infected population increased a lot at first then fluctuated around a certain level.
+
+In my opinion, the reason for why the data might look the way it does is that the number of infected persons was small at first, which failed to arouse people's attention. As a result of accumulation, the number of infected persons reached a relatively large number but the patients still got in touch with many other people because the society did not pay much attention to it. Therefore, the breakout of the COVID-19 epidemic took place. As there was a delay in taking appropriate measures, the number of infected population increased exponentially and the increment was a large number.
