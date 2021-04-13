@@ -4,11 +4,11 @@ c = 100321
 d = abs(a-c)
 e = abs(a-b)
 if d == e:
-print("d quals to e")
+  print("d quals to e")
 elif d > e:
-print("d is bigger than e")
+  print("d is bigger than e")
 else:
-print("d is smaller than e")
+  print("d is smaller than e")
 
 X = True
 Y = False
