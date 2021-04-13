@@ -16,8 +16,8 @@ Y = 1
 print("No.2 term is", Y)
 #Create a loop to calculate the other terms of the sequence.
 for i in range(3,14):
-Z = X + Y
-X = Y
-Y = Z
+  Z = X + Y
+  X = Y
+  Y = Z
 #Then print the terms of the sequence.
-print("No.", i, "term is", Z)
+  print("No.", i, "term is", Z)
