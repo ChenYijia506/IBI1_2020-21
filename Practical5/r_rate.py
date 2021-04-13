@@ -15,4 +15,7 @@ n = 84
 for i in range(1,6):
   n = n + n*r
 #Print how many peple get infected after 5 rounds. Since the number of people is discrete variale, we need to change n into an integer.
-print(int(n))
+if type(n) == int:
+  print(n)
+ else:
+  print(int(n)+1)
