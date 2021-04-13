@@ -11,7 +11,7 @@
 
 #Define the first and second terms of fibonacci sequence.
 X = 1
-print("No.1 term is"， X）
+print("No.1 term is",X)
 Y = 1
 print("No.2 term is", Y)
 #Create a loop to calculate the other terms of the sequence.
