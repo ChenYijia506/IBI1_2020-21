@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt #import matplotlib
 labels = 'USA', 'India', 'Brazil', 'Russia', 'UK' #name the labels shown in the pie chart
 sizes = [29862124, 11285861, 11205972, 4360823, 4234924] #import the data shown in the table
 explode = (0, 0, 0, 0, 0) 
+plt.title('Total number of COVID-19 infections in five countries')
 plt.pie(sizes,explode=explode, labels=labels, autopct='%1.1f%%',
         shadow=False, startangle=90) #set relative parameters
 plt.axis('equal')
