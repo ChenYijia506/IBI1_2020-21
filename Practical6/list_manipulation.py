@@ -6,6 +6,7 @@ b = np.array(exon_counts)
 X = a/b #do the calculation to get average exon lengths
 X = list(X) #As X is considered as 'numpy.ndarray' now, change X to a list
 X.sort() #change X into a sorted list
+print(X.sort())
 
 import numpy as np #import numpy
 import matplotlib.pyplot as plt #import matplotlib
