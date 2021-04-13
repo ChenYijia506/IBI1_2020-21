@@ -17,5 +17,5 @@ for i in range(1,6):
 #Print how many peple get infected after 5 rounds. Since the number of people is discrete variale, we need to change n into an integer.
 if type(n) == int:
   print(n)
- else:
+else:
   print(int(n)+1)
