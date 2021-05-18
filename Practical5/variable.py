@@ -12,25 +12,30 @@ else:
 
 X = True
 Y = False
-Z = (X and not Y)or(X and not Y)
+Z = (X and not Y)or(Y and not X)
 W = X!=Y
-print(Z == W)
+if Z==W:
+    print("Z and W are the same.")
 
 X = False
 Y = True
-Z = (X and not Y)or(X and not Y)
+Z = (X and not Y)or(Y and not X)
 W = X!=Y
-print(Z == W)
+if Z==W:
+    print("Z and W are the same.")
+
 
 X = True
 Y = True
-Z = (X and not Y)or(X and not Y)
+Z = (X and not Y)or(Y and not X)
 W = X!=Y
-print(Z == W)
+if Z==W:
+    print("Z and W are the same.")
+
 
 X = False
 Y = False
-Z = (X and not Y)or(X and not Y)
+Z = (X and not Y)or(Y and not X)
 W = X!=Y
-print(Z == W)
-
+if Z==W:
+    print("Z and W are the same.")
