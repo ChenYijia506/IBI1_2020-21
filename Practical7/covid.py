@@ -7,9 +7,9 @@ covid_data = pd.read_csv("full_data.csv") #line 1-6: the code for importing the 
 covid_data.iloc[0:12:2,0:5] #the code for showing all columns, and every second row between (and including) 0 and 10
 Afghanistan = [] #create a list
 for i in range(0,7996):
-if covid_data.iloc[i,1]=="Afghanistan":
-Afghanistan.append(True)
-else: Afghanistan.append(False) #use Boolean to endow the variables with True or False
+	if covid_data.iloc[i,1]=="Afghanistan":
+		Afghanistan.append(True)
+	else: Afghanistan.append(False) #use Boolean to endow the variables with True or False
 covid_data.loc[Afghanistan,"total_cases"] #print all the rows whose column of location is Afghanistan
 covid_data[covid_data.location == "World"] #the code to compute the mean and median of new cases for the entire world
 world_new_cases = covid_data.iloc[7880:7972,[0,2]]
